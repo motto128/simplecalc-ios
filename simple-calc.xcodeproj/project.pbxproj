@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DE85DE70201FF1BA0084D6CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE85DE6F201FF1BA0084D6CC /* AppDelegate.swift */; };
 		DE85DE72201FF1BA0084D6CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE85DE71201FF1BA0084D6CC /* ViewController.swift */; };
-		DE85DE75201FF1BA0084D6CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE85DE73201FF1BA0084D6CC /* Main.storyboard */; };
+		DE85DE75201FF1BA0084D6CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE85DE73201FF1BA0084D6CC /* Main.storyboard */; settings = {ASSET_TAGS = (label, ); }; };
 		DE85DE77201FF1BA0084D6CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE85DE76201FF1BA0084D6CC /* Assets.xcassets */; };
 		DE85DE7A201FF1BA0084D6CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE85DE78201FF1BA0084D6CC /* LaunchScreen.storyboard */; };
 		DE85DE85201FF1BA0084D6CC /* simple_calcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE85DE84201FF1BA0084D6CC /* simple_calcTests.swift */; };
@@ -187,6 +187,9 @@
 		DE85DE64201FF1BA0084D6CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					label,
+				);
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Joe Motto";
@@ -427,12 +430,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GQ465435B;
 				INFOPLIST_FILE = "simple-calc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.uw.ischool.simple-calc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -441,12 +446,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GQ465435B;
 				INFOPLIST_FILE = "simple-calc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.uw.ischool.simple-calc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
